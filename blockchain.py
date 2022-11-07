@@ -204,6 +204,7 @@ def tests():
 
 if __name__ == '__main__':
     timestamp = int(sys.argv[1])
+    print("\nwaiting..",'\r')
     ans = find_block_prior_to(timestamp)
     print(ans)
 
