@@ -40,19 +40,11 @@ def get_block(height: int, count_call=True):
     blocks = data["blocks"]
     if len(blocks) > 0:
         block = blocks[0]
-        print_block(block)
+        # print_block(block)
     else:
         print(f"the requested block [{height}] is unavailable")
 
     return blocks[0] if len(blocks) > 0 else None
-
-
-def get_latest_block2():
-    parm['calls'] += 1
-    max_height = 762153
-    max_time = 1667842321
-    return {'height': max_height, 'time': max_time}
-
 
 
 def get_latest_block():
@@ -215,8 +207,4 @@ if __name__ == '__main__':
     ans = find_block_prior_to(timestamp)
     print(ans)
 
-    # tests()
-    # height = find_block_prior_to(1417510399)
-    # print(height)
-    # print(parm["calls"])
 
