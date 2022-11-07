@@ -8,6 +8,11 @@
 ```
 python blockchain.py <timestamp>
 ```
+## Description:
+The system uses an estimate of the amount of blocks created between the timestamp given and the time in the Genesis Block.
+It calculates relatively tighter upper & lower boundaries, then uses a binary search to return the desired block's height.
+
+
 
 ## Stats:
 Tested the performance of 3 different aproaches over 30
