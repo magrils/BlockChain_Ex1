@@ -9,12 +9,12 @@
 python blockchain.py <timestamp>
 ```
 
-## Stats
-Tested the performance of 3 different aproaches over XXXX
+## Stats:
+Tested the performance of 3 different aproaches over 30
 iterations.
 
 
 |   	|fixed growth rate|current growth rate|simple bisect   	|   	
 |---	|---	|---	|---	|
-|total calls|292   	|368   	|295   	|   	
-|avg. calls|19.4   	|24.5   	|19.6   	|
+|total calls|593   	|764   	|599   	|   	
+|calls / run|19.8   	|25.5   	|19.9   	|
